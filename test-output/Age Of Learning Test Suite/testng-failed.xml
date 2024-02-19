@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Age Of Learning Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.ageoflen.qa.util.ListenersTestNG"/>
+  </listeners>
+  <test thread-count="5" name="Age Of Learning Test Suite(failed)">
+    <classes>
+      <class name="com.ageoflen.qa.testscases.AbcRegistrationTest">
+        <methods>
+          <include name="verifyRegPageURLTest"/>
+          <include name="enterEmailRegPageTest"/>
+          <include name="submitButtonClickTest"/>
+        </methods>
+      </class> <!-- com.ageoflen.qa.testscases.AbcRegistrationTest -->
+      <class name="com.ageoflen.qa.testscases.AbcHomeTest">
+        <methods>
+          <include name="signUpButtonClick"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.ageoflen.qa.testscases.AbcHomeTest -->
+      <class name="com.ageoflen.qa.testscases.AbcSubscriptionTest">
+        <methods>
+          <include name="verifySubcritpionPageURLTest"/>
+          <include name="verifygetTextTest"/>
+        </methods>
+      </class> <!-- com.ageoflen.qa.testscases.AbcSubscriptionTest -->
+    </classes>
+  </test> <!-- Age Of Learning Test Suite(failed) -->
+</suite> <!-- Failed suite [Age Of Learning Test Suite] -->

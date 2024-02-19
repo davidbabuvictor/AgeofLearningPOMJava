@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Age Of Learning Test Suite">
+	<listeners>
+    		<listener class-name = "com.ageoflen.qa.util.ListenersTestNG"></listener>
+  	 </listeners>
+	<test name="Age Of Learning Test Suite">
+			
+		<classes>
+			<class name="com.ageoflen.qa.testscases.AbcHomeTest"></class>
+			<class name="com.ageoflen.qa.testscases.AbcRegistrationTest"></class>
+			<class name="com.ageoflen.qa.testscases.AbcSubscriptionTest"></class>
+						
+		</classes>
+	</test>
+</suite>
